@@ -1,44 +1,86 @@
 * {
-    font-family: Arial, sans-serif;
-    background-color: #f3f3f3;
-    text-align: center;
-}
-
-
-.container {
-    background-color: #fff;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    /* background-image: url(assets/black1.webp); */
+    /* overflow: hidden; */
+    background-color: #6488ed;
 }
 
 h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 3rem;
+    color: #ff0000;
 }
 
-input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+.container {
+    margin-top: 2rem;
+    text-align: center;
 }
 
-button {
-    width: 100%;
+.input {
+    width: 40%;
+    padding: 5px;
+
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border-color: white;
+    height:40%;
+}
+
+.inputdiv {
+    text-align: center;
+}
+
+.btndiv {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.btn {
     padding: 10px;
-    background-color: #007BFF;
-    color: #fff;
+    font-size: large;
+    background-color: white;
+    border-radius: 5px;
     border: none;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #0056b3;
+.btn:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+.div1{
+    
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-top: 2rem;
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 25px 25px 25px 25px;
+    align-items: center;
 }
 
-#weatherInfo {
-    margin-top: 20px;
-    font-size: 18px;
+p{
+    background-color: white;
+    padding: 5px;
 }
+.img{
+    background-color: white;
+    /* padding: 90px;  */
+    color: white;
+    border: none;
+    overflow: hidden;
+ }
+ .temp{
+    font-size: 5rem;
+ }
+ .error{
+    margin-top: 2rem;
+    background-color: #6488ed;
+    color: white;
+    font-size: 2rem;
+ }
+ 
