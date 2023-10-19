@@ -3,6 +3,14 @@ const form = document.querySelector('.btndiv');
 const div = document.querySelector('.div');
 const loader = document.querySelector('.loader');
 
+// <<<<<<< HEAD
+// =======
+// btn.addEventListener('click', () => {
+//   const location = input.value;
+//   axios.get(`https://api.weatherapi.com/v1/current.json?key=f9f9014172b940579ff40822231710&q=${location}`)
+//     .then((response) => {
+//       const weatherData = response.data;
+// >>>>>>> a666fc6477001a58f4b6194d39f1c150e7910633
 
 
 
