@@ -5,7 +5,7 @@ const btn = document.querySelector('.btn');
 
 btn.addEventListener('click', () => {
   const location = input.value;
-  axios.get(`http://api.weatherapi.com/v1/current.json?key=f9f9014172b940579ff40822231710&q=${location}`)
+  axios.get(`https://api.weatherapi.com/v1/current.json?key=f9f9014172b940579ff40822231710&q=${location}`)
     .then((response) => {
       const weatherData = response.data;
 
